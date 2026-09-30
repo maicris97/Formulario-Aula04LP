@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea{
+    width: 100%;
+    padding: 5px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 2px solid #cab815;
+    border-radius: 5px;
+}
+
+textarea{
+    resize: vertical;
+    height: 60px;
+}
+
+.grupo-radio label, .grupo-box label{
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+.foco{
+    border-color: #189edbcc !important;
+    background-color: #f0f7ff;
+
+}
+
+.erro{
+    border-color: #e61515 !important;
+}
+
+#contador{
+    font-size: 12px;
+    color: #110f0f;
+}
+
+#nensagem-envio{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#mensagem.sucesso{
+    background-color: #f0f7ff;
+    color: #189edbcc;
+    display: block;
+}
+
+#mensagem.erro{
+    background-color: #f0f7ff;
+    color: #e61515;
+    display: block;
+}
+
+button{
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: #79c4e2;
+    color: #010203cc;
+}
