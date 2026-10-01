@@ -64,13 +64,13 @@ textarea{
     display: none;
 }
 
-.sucesso{
+#mensagem-envio.sucesso{
     background-color: #f8fafd;
     color: #0dd44fcc;
     display: block;
 }
 
-.erro{
+#mensagem-envio.erro{
     background-color: #f0f7ff;
     color: #e61515;
     display: block;

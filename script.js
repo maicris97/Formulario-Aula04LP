@@ -71,12 +71,12 @@ form.addEventListener('submit', function(event){
     } 
 
     if(valido) {
-      mensagemEnvio.classList.toggle("sucesso")
+      mensagemEnvio.className ="sucesso"
       mensagemEnvio.textContent = "Cadastro de " + nome + " realizado com sucesso."
       form.reset()
       contador.textContent = "O / 100 caracteres"
     }else{
-      mensagemEnvio.classList.toggle("falha")
+      mensagemEnvio.className = "erro"
       mensagemEnvio.textContent = erros.join("")
     }
 
